@@ -1,0 +1,46 @@
+.topnav{
+    background-color: rgb(226, 225, 225);
+    width: inherit;
+    height: 40px;
+}
+.topnav ul{
+    display: inline-flex;
+    position: absolute;
+    left: 200px; 
+    margin-top: 10px;
+    width: auto
+}
+.topnav ul li{
+    display: inline-flex;
+    list-style: none;
+}
+body{
+    margin: unset;
+}
+.slideshow-container{
+    height: 400px;
+    width: 800px;
+    background-color: lawngreen;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+.gridwrapper{
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5em;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item{
+  height:100px;  
+}
+.item img {
+    width: inherit;
+    height: inherit;
+    border-radius: 5px;
+   border-left: black;
+}
