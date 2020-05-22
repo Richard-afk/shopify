@@ -33,10 +33,19 @@ body{
     grid-gap: 1.5em;
     align-self: center;
     margin: 40px auto;
+    justify-content: center;
+    padding-left: 15px;
 }
 
 .items {
     height: 250;
     border-radius: 10px;
     border: solid 1px black;
+    width: 230px;
+}
+
+.items img {
+  width: 210px;
+  height: 200px;
+  margin: auto
 }
