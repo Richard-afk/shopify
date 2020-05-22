@@ -38,9 +38,9 @@ body{
 }
 
 .items {
-    height: 250;
+    height: 250px;
     border-radius: 10px;
-    border: solid 1px black;
+    border: solid 1px rgb(194, 194, 194);
     width: 230px;
 }
 
